@@ -1,6 +1,6 @@
 #' Create a random sequence of length n
 #'
-#' @param n 
+#' @param n
 #'
 #' @return random_sequence
 #' @export
