@@ -1,4 +1,13 @@
-function2 <- function(name_me2){
-  name_me3 <- gsub("T", "U", name_me2)
-  return(name_me3)
+#' dna sequence to rna sequence
+#'
+#' Substitutes "T" with "U"
+#'
+#' @format
+#'
+"dna_to_rna"
+
+dna_to_rna <- function(DNA_seq){
+  RNA_seq <- gsub("T", "U", DNA_seq)
+  return(RNA_seq)
 }
+
