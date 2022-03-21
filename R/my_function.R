@@ -1,9 +1,8 @@
-#' Title
+#' My function
 #'
 #' @param foo 
 #' @param bar 
 #'
-#' @return
 #' @export
 #'
 #' @examples
