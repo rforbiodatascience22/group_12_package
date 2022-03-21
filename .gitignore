@@ -3,9 +3,6 @@
 .Rdata
 .httr-oauth
 .DS_Store
-mypkgname.Rcheck/
-mypkgname*.tar.gz
-mypkgname*.tgz
 22100Grp12.Rproj.Rcheck/
 22100Grp12.Rproj*.tar.gz
 22100Grp12.Rproj*.tgz
