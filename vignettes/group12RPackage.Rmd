@@ -11,6 +11,7 @@ vignette: >
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
+
 )
 ```
 
@@ -21,6 +22,35 @@ library(group12RPackage.Rproj)
 ## Brief description
 
 This package was developed as part of the 22100 course at DTU. It can be used to perform tasks related to the Central Dogma of Biology (i.e. transcription and translation) and plot the amino acid counts in a protein. 
+
+## Demonstration of functionality
+
+Creating a random DNA sequence for demonstration purposes
+```{r}
+seq_length <- 60
+r_DNA_seq <- random_seq(seq_length)
+r_DNA_seq
+```
+
+transcribing the seuqence to RNA 
+```{r}
+mRNA <- transcription(r_DNA_seq)
+mRNA
+```
+extract codons from mRNA
+```{r}
+codons <- get_codons(mRNA)
+codons
+```
+translate codons into protein sequence
+```{r}
+protein_seq <- translation(codons)
+protein_seq
+```
+Visualizing amino acid distribution in protein sequence
+```{r}
+plot_aa(protein_seq)
+```
 
 ## Discussion
 
