@@ -1,6 +1,6 @@
 ---
 title: "group12RPackage"
-output: rmarkdown::pdf_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{group12RPackage}
   %\VignetteEngine{knitr::rmarkdown}
@@ -17,3 +17,7 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(group12RPackage.Rproj)
 ```
+
+## Brief description
+
+
