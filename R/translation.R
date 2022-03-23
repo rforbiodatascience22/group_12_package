@@ -1,12 +1,11 @@
-#' Translation
+#' Translation function
 #'
-#' Returns the amino acid sequence for their three letter codes
+#' @param RNA_seq mRNA sequence in codons
 #'
-#' @format
+#' @return Returns the amino acid sequence for their three letter codes
+#' @export
 #'
-#'
-#' "translation"
-
+#' @examples translation("AUGCUA")
 translation <- function(RNA_seq){
   protein_seq <- paste0(codon_table[RNA_seq], collapse = "")
   return(protein_seq)
