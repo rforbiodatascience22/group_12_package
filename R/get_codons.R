@@ -3,6 +3,7 @@
 #' @param seq
 #' @param start
 #'
+#' @return Returns the mRNA codons
 #' @export
 #'
 #' @examples get_codons("ACT")
