@@ -2,7 +2,7 @@
 #'
 #' @param n
 #'
-#' @return random_sequence
+#' @return Returns random DNA sequence
 #' @export
 #'
 #' @examples random_sequence(10) # get random dna sequence of length 10
