@@ -7,7 +7,9 @@
 get_codons(seq, start = 1)
 }
 \arguments{
-\item{start}{}
+\item{seq}{mRNA sequence}
+
+\item{start}{position to start counting}
 }
 \value{
 Returns the mRNA codons
