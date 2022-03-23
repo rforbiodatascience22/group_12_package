@@ -33,6 +33,6 @@ r_DNA_seq
 
 transcribing the seuqence to RNA 
 ```{r}
-dna
+tran
 ```
 
