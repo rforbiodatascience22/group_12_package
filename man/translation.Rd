@@ -2,13 +2,19 @@
 % Please edit documentation in R/translation.R
 \name{translation}
 \alias{translation}
-\title{Translation}
-\format{
-"translation"
-}
+\title{Translation function}
 \usage{
 translation(RNA_seq)
 }
-\description{
+\arguments{
+\item{RNA_seq}{mRNA sequence in codons}
+}
+\value{
 Returns the amino acid sequence for their three letter codes
+}
+\description{
+Translation function
+}
+\examples{
+translation("AUGCUA")
 }
