@@ -23,23 +23,6 @@ library(group12RPackage.Rproj)
 
 This package was developed as part of the 22100 course at DTU. It can be used to perform tasks related to the Central Dogma of Biology (i.e. transcription and translation) and plot the amino acid counts in a protein. 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 ## Demonstration of functionality
 
 Creating a random DNA sequence for demonstration purposes
@@ -68,7 +51,6 @@ Visualizing amino acid distribution in protein sequence
 ```{r}
 plot_aa(protein_seq)
 ```
->>>>>>> 14e4c7f049166a986d4c51b39ed36e4115540f6f
 
 ## Discussion
 
