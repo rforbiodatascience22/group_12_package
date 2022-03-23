@@ -1,12 +1,33 @@
 ---
-title: "group12RPackage"
-author: "Group 12: Deeptha (s210230), Eric (s212514), Jonathan (s212697), Laura (s212775)"
-output: rmarkdown::pdf_document
-vignette: >
-  %\VignetteIndexEntry{group12RPackage}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output: github_document
 ---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# group12RPackage.Rproj
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of group12RPackage.Rproj is to ...
+
+## Installation
+
+You can install the development version of group12RPackage.Rproj from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("rforbiodatascience22/group_12_package")
+```
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -74,5 +95,3 @@ return(DNA_seq)
 }
 
 To use with package with DNA sequences and get the exact protein sequence, we could create a function that recognizes the 'Start' and 'Stop' codons and then proceed with transcription to produce the exact protein sequence. 
-
-
