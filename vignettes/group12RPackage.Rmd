@@ -1,0 +1,19 @@
+---
+title: "group12RPackage"
+output: rmarkdown::pdf_vignette
+vignette: >
+  %\VignetteIndexEntry{group12RPackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(group12RPackage.Rproj)
+```
