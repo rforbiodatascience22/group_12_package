@@ -1,7 +1,7 @@
 #' Get codons
 #'
-#' @param seq
-#' @param start
+#' @param seq mRNA sequence
+#' @param start position to start counting
 #'
 #' @return Returns the mRNA codons
 #' @export
