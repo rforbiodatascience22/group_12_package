@@ -43,14 +43,29 @@ library(group12RPackage.Rproj)
 
 Creating a random DNA sequence for demonstration purposes
 ```{r}
-seq_length = 21
-r_DNA_seq = random_seq(seq_length)
+seq_length <- 60
+r_DNA_seq <- random_seq(seq_length)
 r_DNA_seq
 ```
 
 transcribing the seuqence to RNA 
 ```{r}
-tran
+mRNA <- transcription(r_DNA_seq)
+mRNA
+```
+extract codons from mRNA
+```{r}
+codons <- get_codons(mRNA)
+codons
+```
+translate codons into protein sequence
+```{r}
+protein_seq <- translation(codons)
+protein_seq
+```
+Visualizing amino acid distribution in protein sequence
+```{r}
+plot_aa(protein_seq)
 ```
 >>>>>>> 14e4c7f049166a986d4c51b39ed36e4115540f6f
 
