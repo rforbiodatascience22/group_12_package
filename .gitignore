@@ -7,3 +7,5 @@
 22100Grp12.Rproj*.tar.gz
 22100Grp12.Rproj*.tgz
 inst/doc
+/doc/
+/Meta/
