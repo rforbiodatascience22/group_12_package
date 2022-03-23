@@ -2,26 +2,27 @@
 #'
 #' @param n
 #'
-#' @return name_me2
 #' @export
 #'
-#' @examples
-plot_aa <- function(protein_seq){
-  unique_aa <- protein_seq %>%
+#' @examples plot_aa("YTLAYL")
+plot_aa <- function(aa_seq){
+  unique_aa <- aa_seq %>%
     stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) %>%
     as.character() %>%
     unique()
 
-  counts <- sapply(unique_aa, function(name_me4) stringr::str_count(string = protein_seq, pattern =  name_me4)) %>%
+  counts <- sapply(unique_aa, function(amino_acid) stringr::str_count(string = aa_seq, pattern =  amino_acid)) %>%
     as.data.frame()
 
   colnames(counts) <- c("Counts")
-  counts[["ptr_seq"]] <- rownames(counts)
+  counts[["Name_me2"]] <- rownames(counts)
 
   name_me4 <- counts %>%
-    ggplot2::ggplot(ggplot2::aes(x = ptr_seq, y = counts, fill = ptr_seq)) +
+    ggplot2::ggplot(ggplot2::aes(x = unique_aa, y = Counts, fill = unique_aa)) +
     ggplot2::geom_col() +
-    ggplot2::theme_bw()
+    ggplot2::theme_bw() +
+    ggplot2::theme(legend.position = "none")
 
   return(name_me4)
 }
+
