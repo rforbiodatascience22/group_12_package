@@ -1,7 +1,7 @@
 #' Description
 #'
 #' @param n
-#'
+#' @importFrom magrittr %>%
 #' @export
 #'
 #' @examples plot_aa("YTLAYL")
@@ -15,7 +15,7 @@ plot_aa <- function(aa_seq){
     as.data.frame()
 
   colnames(counts) <- c("Counts")
-  counts[["Name_me2"]] <- rownames(counts)
+  counts[["aa_seq"]] <- rownames(counts)
 
   plot1 <- counts %>%
     ggplot2::ggplot(ggplot2::aes(x = unique_aa, y = Counts, fill = unique_aa)) +
