@@ -21,6 +21,7 @@ library(group12RPackage.Rproj)
 
 ## Brief description
 
+This package was developed as part of the 22100 course at DTU. It can be used to perform tasks related to the Central Dogma of Biology (i.e. transcription and translation) and plot the amino acid counts in a protein. 
 
 <<<<<<< HEAD
 
@@ -69,3 +70,8 @@ plot_aa(protein_seq)
 ```
 >>>>>>> 14e4c7f049166a986d4c51b39ed36e4115540f6f
 
+## Discussion
+
+We think it is a good idea to limit the number of dependencies a package has because it makes it more robust to problems that arise within those packages. Also, it is less probable that conflicts come up due to updates in those packages.
+
+The difference between adding an @importFrom package function tag to a function description compared to using package::function() is that with the first method you only import a specific function on the package, whereas with the second method you import the whole package. Thus, the first method is better when you only need a single function of a specific package.
