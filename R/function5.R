@@ -17,12 +17,12 @@ plot_aa <- function(aa_seq){
   colnames(counts) <- c("Counts")
   counts[["Name_me2"]] <- rownames(counts)
 
-  name_me4 <- counts %>%
+  plot1 <- counts %>%
     ggplot2::ggplot(ggplot2::aes(x = unique_aa, y = Counts, fill = unique_aa)) +
     ggplot2::geom_col() +
     ggplot2::theme_bw() +
     ggplot2::theme(legend.position = "none")
 
-  return(name_me4)
+  return(plot1)
 }
 
