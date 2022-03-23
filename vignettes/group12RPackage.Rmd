@@ -11,6 +11,7 @@ vignette: >
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
+
 )
 ```
 
@@ -21,6 +22,7 @@ library(group12RPackage.Rproj)
 ## Brief description
 
 
+<<<<<<< HEAD
 
 
 
@@ -36,4 +38,19 @@ library(group12RPackage.Rproj)
 
 
 
+=======
+## Demonstration of functionality
+
+Creating a random DNA sequence for demonstration purposes
+```{r}
+seq_length = 21
+r_DNA_seq = random_seq(seq_length)
+r_DNA_seq
+```
+
+transcribing the seuqence to RNA 
+```{r}
+tran
+```
+>>>>>>> 14e4c7f049166a986d4c51b39ed36e4115540f6f
 
