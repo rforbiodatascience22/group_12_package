@@ -10,11 +10,11 @@ random_seq(n)
 \item{n}{}
 }
 \value{
-random_sequence
+Returns random DNA sequence
 }
 \description{
 Create a random sequence of length n
 }
 \examples{
-random_sequence(10)
+random_sequence(10) # get random dna sequence of length 10
 }

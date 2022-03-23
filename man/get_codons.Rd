@@ -9,6 +9,12 @@ get_codons(seq, start = 1)
 \arguments{
 \item{start}{}
 }
+\value{
+Returns the mRNA codons
+}
 \description{
 Get codons
+}
+\examples{
+get_codons("ACT")
 }
