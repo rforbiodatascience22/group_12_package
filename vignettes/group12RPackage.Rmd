@@ -79,13 +79,13 @@ The difference between adding an @importFrom package function tag to a function 
 
 ##Additional functions 
 
-##We could potentially also create a function for Reverse Transcription. To produce a DNA sequence from RNA. 
+We could potentially also create a function for Reverse Transcription. To produce a DNA sequence from RNA. 
 
 reverse_transcription <- function(RNA_seq) {
 DNA_seq <- gsub(“U”, “T”, RNA_seq) 
 return(DNA_seq)
 }
 
-
+To use with package with DNA sequences and get the exact protein sequence, we could create a function that recognizes the 'Start' and 'Stop' codons and then proceed with transcription to produce the exact protein sequence. 
 
 
