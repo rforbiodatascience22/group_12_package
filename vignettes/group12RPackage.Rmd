@@ -20,6 +20,10 @@ knitr::opts_chunk$set(
 library(group12RPackage.Rproj)
 ```
 
+### Link to GitHub
+
+https://github.com/rforbiodatascience22/group_12_package
+
 ## Brief description
 
 This package was developed as part of the 22100 course at DTU. It can be used to perform tasks related to the Central Dogma of Biology (i.e. transcription and translation) and plot the amino acid counts in a protein. 
