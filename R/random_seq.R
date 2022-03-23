@@ -5,7 +5,7 @@
 #' @return Returns random DNA sequence
 #' @export
 #'
-#' @examples random_sequence(10) # get random dna sequence of length 10
+#' @examples random_seq(10) # get random dna sequence of length 10
 random_seq <- function(n){
   nucleotides <- sample(c("A", "T", "G", "C"), size = n, replace = TRUE)
   random_sequence <- paste0(nucleotides, collapse = "")

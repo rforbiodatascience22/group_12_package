@@ -6,9 +6,6 @@
 \usage{
 plot_aa(aa_seq)
 }
-\arguments{
-\item{n}{}
-}
 \description{
 Description
 }
