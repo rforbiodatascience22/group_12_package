@@ -2,8 +2,10 @@ Package: group12RPackage.Rproj
 Title: Lab 8: Central Dogma of Molecular Biology
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(person(given = "Eric",
+             family = "Bautista",
+             role = c("aut", "cre"),
+             email = "your@email.com"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -10,3 +10,6 @@
 ^doc$
 ^Meta$
 ^README\.Rmd$
+^group12RPackage.Rproj\.Rcheck$
+^group12RPackage.Rproj.*\.tar\.gz$
+^group12RPackage.Rproj.*\.tgz$

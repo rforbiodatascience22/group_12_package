@@ -9,3 +9,6 @@
 inst/doc
 /doc/
 /Meta/
+group12RPackage.Rproj.Rcheck/
+group12RPackage.Rproj*.tar.gz
+group12RPackage.Rproj*.tgz
