@@ -2,15 +2,18 @@
 % Please edit documentation in R/transcription.R
 \name{transcription}
 \alias{transcription}
-\title{Get codons}
+\title{Transcription}
 \usage{
 transcription(DNA_seq)
 }
 \arguments{
 \item{DNA_seq}{provide a DNA sequence as a string object}
 }
+\value{
+Returns the RNA sequence
+}
 \description{
-Get codons
+Transcription
 }
 \examples{
 dna_to_rna('ATGCATGGA') -> "AUGCAUGGA"

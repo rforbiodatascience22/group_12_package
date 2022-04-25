@@ -1,4 +1,4 @@
-#' Translation function
+#' Translation
 #'
 #' @param RNA_seq mRNA sequence in codons
 #'

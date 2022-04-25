@@ -1,4 +1,4 @@
-#' Get codons
+#' DNA to RNA
 #'
 #' @param DNA_seq provide a DNA sequence as a string object
 #'

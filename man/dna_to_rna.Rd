@@ -2,7 +2,7 @@
 % Please edit documentation in R/dna_to_rna.R
 \name{dna_to_rna}
 \alias{dna_to_rna}
-\title{Get codons}
+\title{DNA to RNA}
 \usage{
 dna_to_rna(DNA_seq)
 }
@@ -10,7 +10,7 @@ dna_to_rna(DNA_seq)
 \item{DNA_seq}{provide a DNA sequence as a string object}
 }
 \description{
-Get codons
+DNA to RNA
 }
 \examples{
 dna_to_rna('ATGCATGGA') -> "AUGCAUGGA"

@@ -2,12 +2,15 @@
 % Please edit documentation in R/plot_aa.R
 \name{plot_aa}
 \alias{plot_aa}
-\title{Description}
+\title{Plot amino acid abundance}
 \usage{
 plot_aa(aa_seq)
 }
+\arguments{
+\item{aa_seq}{amino acid sequence as a string}
+}
 \description{
-Description
+Plot amino acid abundance
 }
 \examples{
 plot_aa("YTLAYL")

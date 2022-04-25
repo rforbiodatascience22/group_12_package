@@ -2,7 +2,7 @@
 % Please edit documentation in R/translation.R
 \name{translation}
 \alias{translation}
-\title{Translation function}
+\title{Translation}
 \usage{
 translation(RNA_seq)
 }
@@ -13,7 +13,7 @@ translation(RNA_seq)
 Returns the amino acid sequence for their three letter codes
 }
 \description{
-Translation function
+Translation
 }
 \examples{
 translation("AUGCUA")

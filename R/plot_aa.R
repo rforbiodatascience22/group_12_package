@@ -1,6 +1,6 @@
-#' Description
+#' Plot amino acid abundance
 #'
-#' @param n
+#' @param aa_seq amino acid sequence as a string
 #' @importFrom magrittr %>%
 #' @export
 #'
