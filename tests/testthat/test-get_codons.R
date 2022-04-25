@@ -1,3 +1,3 @@
-test_that("Get the codons correctly", {
-  get_codons("AUGCUAUUA")
+test_that("mRNA sequence is sliced in the correct codons", {
+  get_codons("ACT")
 })
