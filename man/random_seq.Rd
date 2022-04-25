@@ -16,5 +16,5 @@ Returns random DNA sequence
 Create a random sequence of length n
 }
 \examples{
-random_seq(10) # get random dna sequence of length 10
+random_seq(10)
 }

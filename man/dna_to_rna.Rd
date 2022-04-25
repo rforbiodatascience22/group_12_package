@@ -13,5 +13,5 @@ dna_to_rna(DNA_seq)
 DNA to RNA
 }
 \examples{
-dna_to_rna('ATGCATGGA') -> "AUGCAUGGA"
+dna_to_rna('ATGCATGGA')
 }

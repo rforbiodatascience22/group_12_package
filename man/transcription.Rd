@@ -16,5 +16,5 @@ Returns the RNA sequence
 Transcription
 }
 \examples{
-dna_to_rna('ATGCATGGA') -> "AUGCAUGGA"
+dna_to_rna('ATGCATGGA')
 }
